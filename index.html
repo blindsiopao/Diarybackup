@@ -3,159 +3,158 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>journal theme</title>
+    <title>Diary</title>
  
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap" rel="stylesheet">
- 
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
  
 <style>
  
-*{
-box-sizing: border-box;
-margin: 0;
-padding: 0;
-}
- 
 body{
-background-image: url('https://i.imgur.com/jdEamQr.png');
-background-color: #F8EEDA;
-margin: 7%;
-font-family: 'Karla', sans-serif;
-font-size: 16px;
-color: #967e68;
+background-color: #F9F5F3;
+background-image: url('https://i.imgur.com/bNk12OW.png');
+margin: 0px;
+color: #3d2120;
 }
  
-.sidebg{
-background-image: url('https://i.imgur.com/WWd5ZJ1.png');
-background-repeat: repeat-y;
-background-position: top right;
-width: 200px;
-height: 100%;
-position: fixed;
-top: 0;
-left: 0;
+#all{
+width: 630px;
 }
  
-.side{
-background-color: #fffefc;
-width: 176px;
-height: 100%;
-padding: 1rem 0.5rem 1rem 1rem;
-text-align: justify;
-font-size: 15px;
-display: flex;
-flex-direction: column;
-gap: 1rem;
-}
- 
-.avatar{
-width: 100%;
-opacity: 0.9;
-}
- 
-.desc{
-padding: 0.5rem;
-}
- 
-.sideheaders{
-font-family: 'Love Ya Like A Sister', serif;
-font-weight: normal;
-font-size: 28px;
-}
- 
-.side ul{
-padding-left: 2.5rem;
-}
- 
-.side li{
-list-style-image: url('https://i.imgur.com/iqIEW3A.gif');
-font-size: 16px;
-}
- 
-.container{
-display: flex;
-flex-direction: column;
-margin-left: 200px;
-}
- 
-.headerwrapper{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-}
- 
-.title{
-font-family: 'Love Ya Like A Sister', serif;
-font-weight: normal;
-color: #8f7c66;
-font-size: 46px;
-align-self: end;
-margin-left: -1rem;
-}
- 
-.headerimg{
-width: 285px;
-align-self: end;
-margin-right: -1rem;
-margin-bottom: -1rem;
-position: relative;
-z-index: 1;
-}
- 
-.boxgap{
-display: flex;
-flex-direction: column;
-gap: 1rem;
-}
- 
-.box{
-display: flex;
-flex-direction: row;
-background-color: #fffefc;
-border: 3px solid #967e68;
-}
- 
-.left{
-border-right: 3px solid #967e68;
-padding: 0.7rem;
+#side{
 text-align: center;
+width: 123px;
+height: 100vh;
+float: left;
+background-color: #fff;
+padding: 10px;
+border-width: 0px 1px 0px 1px;
+border-style: solid;
+border-color: #3d2120;
+}
+ 
+#sideicon{
+border: 1px solid #e98583;
+}
+ 
+.sideheader{
+font-weight: normal;
+margin: 5px 0px 0px 5px;
+font-size: 20px;
+font-family: 'Special Elite', serif;
+}
+ 
+#aboutheader{
+margin: 0px 0px -5px 0px;
+}
+ 
+#about{
+text-align: justify;
+margin: 0px 0px 10px 0px;
+letter-spacing: 1px;
+}
+ 
+.divider{
+border-bottom: 1px dashed #3d2120;
+}
+ 
+ul{
+padding: 0px;
+margin: 0px;
+}
+ 
+li{
+list-style-type: none;
+margin: 5px 0;
+}
+ 
+#main{
+width: 485px;
+height: 100vh;
+float: left;
+background-color: #fff;
+overflow: scroll;
+overflow-x: hidden;
+}
+ 
+#header{
+background-image: url('https://i.imgur.com/HRdzoxk.png');
+background-color: #e98583;
+height: 70px;
+border-bottom: 1px solid #6b2d2b;
+}
+ 
+#header h1{
+margin: 0px;
+font-weight: normal;
+color: #fff;
+font-size: 70px;
+line-height: 105px;
+text-transform: uppercase;
+font-family: 'Special Elite', serif;
+}
+ 
+.subheader{
+font-weight: normal;
+font-size: 30px;
+margin: 0px 0px -5px 0px;
+padding: 10px 10px 0px 10px;
+font-family: 'Special Elite', serif;
+}
+ 
+.postcontainer{
+padding: 10px;
+position: relative;
+}
+ 
+.iconanddatecontainer{
+height: 92px;
+border-bottom: 2px dashed #e98583;
+font-family: 'Special Elite', serif;
 }
  
 .icon{
-border: 2px solid #967E68;
+border: 1px solid #3d2120;
 }
  
-.right{
-padding: 1rem;
+.posttext{
+padding: 0px 15px 0px 15px;
+letter-spacing: 1px;
+text-align: justify;
+margin-top: -4px;
+}
+ 
+.icon{
+position: absolute;
+}
+ 
+.date{
+position: absolute;
+right: 10px;
 }
  
 a{
-color: #76AFC2;
 text-decoration: none;
+color: #D74329;
 }
  
 a:visited{
-color: #76AFC2;
+color: #D74329;
 }
  
 a:hover{
+font-style: italic;
 font-weight: bold;
 }
  
 a:active{
+font-weight: bold;
 font-style: italic;
-font-weight: normal;
 }
  
- 
- 
 ::-webkit-scrollbar{
-width: 8px; 
+width: 5px; 
 }
  
 ::-webkit-scrollbar-track{
@@ -163,7 +162,14 @@ background-color: transparent;
 }
  
 ::-webkit-scrollbar-thumb{
-background-color: #967e68;
+background-color: #e98583;
+}
+ 
+#bg{
+position:fixed;
+bottom: 0px;
+right: 0;
+opacity: 0.9;
 }
  
 #credit{
@@ -171,51 +177,7 @@ font-size: 12px;
 position: fixed;
 bottom: 0;
 right: 0;
-}
- 
-@media(max-width:760px){
-body{
-margin: 0;
-padding: 1rem;
-}
-.sidebg{
-background-image: none;
-position: relative;
-top: 0;
-margin-bottom: 1rem;
-width: 100%;
-height: auto;
-}
-.side{
-height: auto;
-width: 100%;
-text-align: center;
-padding: 1rem;
-}
-.desc{
-font-size: 16px;
-}
-.side ul{
-padding: 0;
-}
-.side li{
-display: inline;
-margin-left: 4px;
-}
-.avatar{
-width: 50%;
-margin: 0 auto;
-}
-.container{
-margin: 0;
-}
-.headerimg{
-width: 180px;
-}
-.title{
-font-size: 36px;
-margin: 0;
-}
+z-index: 2;
 }
  
 </style>
@@ -224,61 +186,65 @@ margin: 0;
  
 <body>
  
-<div class="sidebg">
-<div class="side">
+<div id="all">
  
-<!-- SIDEBAR AVATAR -->
-<img class="avatar" src="https://64.media.tumblr.com/0882da2752698f3af95bb0430cb9a3ed/tumblr_pk7notiPBU1rnxhlq_540.gif">
+<div id="main">
  
-<!-- SIDEBAR DESCRIPTION -->
-<p class="desc">tidbits of my life from my little sandbox on the net</p>
+<div id="header"><h1>Diary</h1></div>
+
  
-<!-- SIDEBAR NAV -->
-<h2 class="sideheaders">Navigate</h2>
-<ul>
-<li><a href="https://dukenanno.github.io/siopaocity/">Home</a></li>
-<li><a href="">About</a></li>
-<li><a href="">Gallery</a></li>
-<li><a href="">Resources</a></li>
-<li><a href="">Links</a></li>
-<li><a href="">Other</a></li>
-</ul>
+<!-- POST 3 -->
+<h2 class="subheader">First Entry!!</h2>
  
+<!-- DATE, MOOD, ETC HERE -->
+<div class="postcontainer">
+<div class="iconanddatecontainer">
+<img src="https://i.imgur.com/XxzLQbJ.jpg" class="icon" width="80px">
+<div class="date">
+<p style="margin:0px;">date: 1/14/2024</p>
+<p style="margin:0px;">mood: <a href="https://www.imood.com/users/cybertomboy"><img src="https://moods.imood.com/display/uname-cybertomboy/bg-ffffff/imood.gif" alt="The current mood of cybertomboy at www.imood.com" border="0"></a> </p>
+<p style="margin:0px;">music: 50 ways to say goodbye - Train</p>
 </div>
 </div>
- 
-<div class="container">
-<div class="headerwrapper">
- 
-<!-- TITLE AND HEADER IMAGE -->
-<h1 class="title">Title Here</h1>
-<img class="headerimg" src="https://i.imgur.com/IwhbkAN.png" id="header">
 </div>
  
-<div class="boxgap">
+<!-- START ENTRY HERE -->
+<div class="posttext">
  
-<!-- POST START -->
-<div class="box">
- 
-<!-- POST ICON AND DATE  -->
-<div class="left">
-<img class="icon" src="https://i.imgur.com/Y5Hxmqc.jpg">
-<p>07/16/2023</p>
+<p style="margin:0px 0px 0px 0px;">Finally finished setting up the last main foundation of my site! Definitely satisfied with the little space i've created here online.</p>
+
+<p> I honestly can't wait to be so behind in internet culture. Like, i can't wait till i'm out of the loop on memes and references. Reverse terminally online typa shit.</p>
+
+<p>As a detransitioner, deprogramming my mind has been a long process but i'm finally starting to feel like a woman again. Feel comfortable enough to wear makeup and feel pretty in it again, sooo here's a rare face reveal pic:</p>
+<br>
+<img src="https://i.imgur.com/GTaVPNf.jpg">
+
 </div>
  
-<!-- POST TEXT -->
-<div class="right">
-<p>First official post on my blog, and first day of official detransition. It's a whole story that i don't really want to go into right now but i still have dysphoria just to make that clear. But anywaysss, here's me in my swaggy new wig<br>
-<img src="https://i.imgur.com/d3V6qHf.jpg">
-</p>
-</div>
- 
-</div>
-<!-- POST END -->
  
 </div>
  
+<!-- SIDEBAR STUFF -->
+ 
+<div id="side">
+<!-- SIDE ICON -->
+<img src="https://i.imgur.com/o5o8iOY.jpg" id="sideicon">
+<br>
+<br>
+<img src="https://bloominglantanas.carrd.co/assets/images/gallery05/2e1b48a9.gif?v=8e241c6f">
+<br>
+<img src="https://gifcity.carrd.co/assets/images/gallery17/10d2010e.gif?v=a44739ec">
+<br>
+<img src="https://raining-starss.neocities.org/twiddle%20(11).gif">
+<br>
+<img src="https://y2k.neocities.org/blinkiez/jinkieblinkie.gif">
+<br>
+<br>
+<center><i><a href="https://cybertomboy.neocities.org/">teleport me back, baby<img src="https://pixelsafari.neocities.org/favicon/nature/plant/clover.png"></a></i></center>
 </div>
+ 
+<!-- BG RENDER HERE -->
+<div id="bg"><img src="https://i.imgur.com/Upy6iUY.png" width="300px"></div>
  
 <div id="credit"><a href="https://repth.neocities.org/index.html">©repth</a></div>
  
